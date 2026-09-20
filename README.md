@@ -1,7 +1,7 @@
 ```markdown
 # README
 
-[中文](README_zh.md) | English
+[中文](README-zh_CN.md) | English
 
 1. Project Name: ysu-ros-humble-jammy
 2. Version: v1.0
