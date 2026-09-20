@@ -17,7 +17,5 @@ RUN git clone https://github.com/Livox-SDK/Livox-SDK2.git && \
     ldconfig
 
 
-
-    
 # 启动时默认进入bash shell
 CMD ["bash"]
