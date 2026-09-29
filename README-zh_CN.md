@@ -53,7 +53,7 @@
     -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR \
     -e QT_QPA_PLATFORM=xcb \
     -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-    -v /dev/dri:/dev/dri \
+    -v /dev:/dev \
     -v $HOME/.Xauthority:$HOME/.Xauthority:ro \
     -v /run/user/$(id -u)/wayland-0:/run/user/$(id -u)/wayland-0 \
     -v /run/user/$(id -u):/run/user/$(id -u) \
